@@ -1,0 +1,5 @@
+baseURL = "http://www.palaniraja.com/websitev2/"
+languageCode = "en-us"
+title = "Palani Raja"
+theme = "whiteplain"
+publishDir = "docs"

@@ -6,39 +6,51 @@
     <description>Recent content on Palani Raja</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Jul 2018 19:03:05 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 28 Jul 2018 20:38:22 +0530</lastBuildDate>
     
 	<atom:link href="http://www.palaniraja.com/websitev2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>mclock</title>
-      <link>http://www.palaniraja.com/websitev2/projects/minimalistic-clock/</link>
-      <pubDate>Sat, 28 Jul 2018 19:03:05 +0530</pubDate>
+      <title>Test Content</title>
+      <link>http://www.palaniraja.com/websitev2/posts/testcontent.html</link>
+      <pubDate>Sat, 28 Jul 2018 20:38:22 +0530</pubDate>
       
-      <guid>http://www.palaniraja.com/websitev2/projects/minimalistic-clock/</guid>
-      <description>Minimalistic Clock - A native mac menu bar application to display additional Timezone. Helpful if you work with multiple timezone
-Github - mclock
-Mac appstore - mclock</description>
+      <guid>http://www.palaniraja.com/websitev2/posts/testcontent.html</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
       <title>Merge MP4</title>
-      <link>http://www.palaniraja.com/websitev2/projects/mergemp4/</link>
+      <link>http://www.palaniraja.com/websitev2/2018/07/merge-mp4.html</link>
       <pubDate>Sat, 28 Jul 2018 18:59:05 +0530</pubDate>
       
-      <guid>http://www.palaniraja.com/websitev2/projects/mergemp4/</guid>
+      <guid>http://www.palaniraja.com/websitev2/2018/07/merge-mp4.html</guid>
       <description>Merging multiple MP4 files in a directory (recursively) Simple bash script to merge multiple MP4 files to a single file. The consolidated MP4 to include chapter information of the individual files as meta data for easy viewing.</description>
     </item>
     
     <item>
       <title>Pilapse</title>
-      <link>http://www.palaniraja.com/websitev2/projects/pilapse/</link>
+      <link>http://www.palaniraja.com/websitev2/2018/07/pilapse.html</link>
       <pubDate>Sat, 28 Jul 2018 18:53:05 +0530</pubDate>
       
-      <guid>http://www.palaniraja.com/websitev2/projects/pilapse/</guid>
+      <guid>http://www.palaniraja.com/websitev2/2018/07/pilapse.html</guid>
       <description>PiLapse It is a simple python script to capture timelapse with few more addition option than raspistill -tl.
 It allows you to configure the quality and dimension of the image. Along with delay between each pictures and when to stop based on available freespace on disk.</description>
+    </item>
+    
+    <item>
+      <title>mclock</title>
+      <link>http://www.palaniraja.com/websitev2/2016/01/mclock.html</link>
+      <pubDate>Thu, 28 Jan 2016 19:03:05 +0530</pubDate>
+      
+      <guid>http://www.palaniraja.com/websitev2/2016/01/mclock.html</guid>
+      <description>Minimalistic Clock - A native mac menu bar application to display additional Timezone. Helpful if you work with multiple timezone
+Github - mclock
+Mac appstore - mclock
+url for this post is http://www.palaniraja.com/websitev2/2018/07/pilapse.html
+Post Comment | View Comments</description>
     </item>
     
   </channel>

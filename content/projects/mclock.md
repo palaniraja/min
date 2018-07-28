@@ -7,7 +7,7 @@ draft: false
 
 Minimalistic Clock - A native mac menu bar application to display additional Timezone. Helpful if you work with multiple timezone
 
-![mclock in action](/websitev2/assets/mclock-in-action.png)
+![mclock in action](assets/mclock-in-action.png)
 
 Github - [mclock](https://github.com/palaniraja/mclock)
 

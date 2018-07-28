@@ -6,6 +6,12 @@ publishDir = "docs"
 
 uglyURLs = true
 canonifyURLs = true
-
+toc = false
 [permalinks]
   projects = "/:year/:month/:title/"
+
+[[menu.main]]
+  name = "Archives"
+  weight = 3
+  identifier = "archives"
+  url = "/archives.html"

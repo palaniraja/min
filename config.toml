@@ -16,3 +16,15 @@ toc = false
   weight = 3
   identifier = "archives"
   url = "/archives.html"
+
+[mediaTypes]
+    [mediaTypes."application/atom"]
+    suffix = "xml"
+
+    [outputFormats.Atom]
+    mediaType = "application/atom"
+    baseName = "index"
+    isPlainText = false
+
+[outputs]
+    home = [ "HTML", "Atom" ]

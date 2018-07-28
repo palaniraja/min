@@ -30,7 +30,10 @@
         {{- end }}
         {{- end }}
       </ul>
-      {{ partial "toc.html" . }}
+      {{ if .Params.toc }}
+        {{ partial "toc.html" . }}
+      {{ end }}
+      
       {{ .Content }}
     </article>
 

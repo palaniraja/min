@@ -17,6 +17,12 @@ toc = false
   identifier = "archives"
   url = "/archives.html"
 
+[[menu.main]]
+  name = "ATOM"
+  weight = 2
+  identifier = "atom"
+  url = "/index.xml"
+
 [mediaTypes]
     [mediaTypes."application/atom"]
     suffix = "xml"

@@ -1,0 +1,1 @@
+List of all articles published.

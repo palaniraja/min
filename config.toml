@@ -3,3 +3,9 @@ languageCode = "en-us"
 title = "Palani Raja"
 theme = "whiteplain"
 publishDir = "docs"
+
+uglyURLs = true
+canonifyURLs = true
+
+[permalinks]
+  projects = "/:year/:month/:title/"

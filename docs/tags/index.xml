@@ -1,14 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Palani Raja</title>
-    <link>http://www.palaniraja.com/websitev2/tags.html</link>
-    <description>Recent content in Tags on Palani Raja</description>
+    <title>Tags on PR</title>
+    <link>http://www.palaniraja.com/websitev2/tags/</link>
+    <description>Recent content in Tags on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 28 Jul 2018 20:38:22 +0530</lastBuildDate>
     
 	<atom:link href="http://www.palaniraja.com/websitev2/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dev</title>
+      <link>http://www.palaniraja.com/websitev2/tags/dev/</link>
+      <pubDate>Sat, 28 Jul 2018 20:38:22 +0530</pubDate>
+      
+      <guid>http://www.palaniraja.com/websitev2/tags/dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>http://www.palaniraja.com/websitev2/tags/mac/</link>
+      <pubDate>Sat, 28 Jul 2018 18:59:05 +0530</pubDate>
+      
+      <guid>http://www.palaniraja.com/websitev2/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opensource</title>
+      <link>http://www.palaniraja.com/websitev2/tags/opensource/</link>
+      <pubDate>Sat, 28 Jul 2018 18:59:05 +0530</pubDate>
+      
+      <guid>http://www.palaniraja.com/websitev2/tags/opensource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://www.palaniraja.com/websitev2/tags/projects/</link>
+      <pubDate>Sat, 28 Jul 2018 18:59:05 +0530</pubDate>
+      
+      <guid>http://www.palaniraja.com/websitev2/tags/projects/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

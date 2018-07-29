@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on PR</title>
-    <link>http://www.palaniraja.com/websitev2/projects/</link>
-    <description>Recent content in Projects on PR</description>
+    <title>Mac on PR</title>
+    <link>http://www.palaniraja.com/websitev2/tags/mac/</link>
+    <description>Recent content in Mac on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Jul 2018 18:59:05 +0530</lastBuildDate>
     
-	<atom:link href="http://www.palaniraja.com/websitev2/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.palaniraja.com/websitev2/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>http://www.palaniraja.com/websitev2/2018/07/merge-mp4/</guid>
       <description>Merging multiple MP4 files in a directory (recursively) Simple bash script to merge multiple MP4 files to a single file. The consolidated MP4 to include chapter information of the individual files as meta data for easy viewing.</description>
-    </item>
-    
-    <item>
-      <title>Pilapse</title>
-      <link>http://www.palaniraja.com/websitev2/2018/07/pilapse/</link>
-      <pubDate>Sat, 28 Jul 2018 18:53:05 +0530</pubDate>
-      
-      <guid>http://www.palaniraja.com/websitev2/2018/07/pilapse/</guid>
-      <description>PiLapse It is a simple python script to capture timelapse with few more addition option than raspistill -tl.
-It allows you to configure the quality and dimension of the image. Along with delay between each pictures and when to stop based on available freespace on disk.</description>
     </item>
     
     <item>

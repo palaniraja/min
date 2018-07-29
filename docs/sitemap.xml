@@ -3,31 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.palaniraja.com/websitev2/posts/testcontent.html</loc>
+    <loc>http://www.palaniraja.com/websitev2/posts/testcontent/</loc>
     <lastmod>2018-07-28T20:38:22+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.palaniraja.com/websitev2/2018/07/merge-mp4.html</loc>
+    <loc>http://www.palaniraja.com/websitev2/2018/07/merge-mp4/</loc>
     <lastmod>2018-07-28T18:59:05+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.palaniraja.com/websitev2/2018/07/pilapse.html</loc>
+    <loc>http://www.palaniraja.com/websitev2/2018/07/pilapse/</loc>
     <lastmod>2018-07-28T18:53:05+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.palaniraja.com/websitev2/2016/01/mclock.html</loc>
+    <loc>http://www.palaniraja.com/websitev2/2016/01/mclock/</loc>
     <lastmod>2016-01-28T19:03:05+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.palaniraja.com/websitev2/archives.html</loc>
+    <loc>http://www.palaniraja.com/websitev2/archives/</loc>
   </url>
   
   <url>
-    <loc>http://www.palaniraja.com/websitev2/categories.html</loc>
+    <loc>http://www.palaniraja.com/websitev2/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.palaniraja.com/websitev2/tags/dev/</loc>
+    <lastmod>2018-07-28T20:38:22+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.palaniraja.com/websitev2/tags/mac/</loc>
+    <lastmod>2018-07-28T18:59:05+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.palaniraja.com/websitev2/tags/opensource/</loc>
+    <lastmod>2018-07-28T18:59:05+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -38,19 +56,26 @@
   </url>
   
   <url>
-    <loc>http://www.palaniraja.com/websitev2/posts.html</loc>
+    <loc>http://www.palaniraja.com/websitev2/posts/</loc>
     <lastmod>2018-07-28T20:38:22+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.palaniraja.com/websitev2/projects.html</loc>
+    <loc>http://www.palaniraja.com/websitev2/projects/</loc>
     <lastmod>2018-07-28T18:59:05+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.palaniraja.com/websitev2/tags.html</loc>
+    <loc>http://www.palaniraja.com/websitev2/tags/projects/</loc>
+    <lastmod>2018-07-28T18:59:05+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.palaniraja.com/websitev2/tags/</loc>
+    <lastmod>2018-07-28T20:38:22+05:30</lastmod>
     <priority>0</priority>
   </url>
   

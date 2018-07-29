@@ -1,12 +1,11 @@
 baseURL = "http://www.palaniraja.com/websitev2/"
 languageCode = "en-us"
-title = "Palani Raja"
-theme = "whiteplain"
+title = "PR"
+theme = "min"
 publishDir = "docs"
 
-uglyURLs = true
-canonifyURLs = true
-toc = false
+# uglyURLs = true
+# canonifyURLs = true
 
 [permalinks]
   projects = "/:year/:month/:title/"
@@ -15,10 +14,10 @@ toc = false
   name = "Archives"
   weight = 3
   identifier = "archives"
-  url = "/archives.html"
+  url = "/archives"
 
 [[menu.main]]
-  name = "ATOM"
+  name = "rss"
   weight = 2
   identifier = "atom"
   url = "/index.xml"

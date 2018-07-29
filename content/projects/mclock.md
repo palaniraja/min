@@ -4,6 +4,7 @@ date: 2016-01-28T19:03:05+05:30
 draft: false
 slug: minimalistic-clock
 description: "minimalistic menu clock app for mac"
+tags: [projects, opensource, mac]
 ---
 
 
@@ -24,3 +25,5 @@ url for this post is {{< ref "pilapse.md" >}}
 
 
 [Post Comment](https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377={{< ref "pilapse.md" >}}) | [View Comments]({{< ref "pilapse.md" >}})
+
+---

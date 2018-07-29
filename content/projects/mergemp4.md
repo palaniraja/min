@@ -2,6 +2,7 @@
 title: "Merge MP4"
 date: 2018-07-28T18:59:05+05:30
 draft: false
+tags: [projects, opensource, mac]
 ---
 
 ## Merging multiple MP4 files in a directory (recursively)

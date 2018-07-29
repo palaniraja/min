@@ -19,7 +19,7 @@
           {{ with .Params.subtitle }}<h3 class="article-subtitle">{{ . }}</h3>{{ end }}
         </a>
         <ul class="article-meta">
-          <li class="article-meta-date"><time>{{ .Date.Format (default "January 2, 2006" $.Site.Params.dateFormat) }}</time></li>
+          <li class="article-meta-date"><time>{{ .Date.Format (default "Jan 2, 2006" $.Site.Params.dateFormat) }}</time></li>
           {{- if .Params.categories }}
           {{- range .Params.categories }}
           <li class="article-meta-categories">

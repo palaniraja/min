@@ -10,14 +10,20 @@ tags: [projects, opensource, mac]
 
 Minimalistic Clock - A native mac menu bar application to display additional Timezone. Helpful if you work with multiple timezone
 
-![mclock in action](../../assets/mclock-in-action.png)
+![mclock in action](/assets/mclock-in-action.png)
+
+
+
+{{ "/assets/mclock-in-action.png" | urlize }}
+
+<a href="{{ /assets/mclock-in-action.png | urlize }}">{{ /assets/mclock-in-action.png | urlize  }}</a>
 
 
 Github - [mclock](https://github.com/palaniraja/mclock)
 
 Mac appstore - [mclock](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1076119164&mt=12)
 
-url for this post is {{< ref "pilapse.md" >}}
+url for this post is {{< ref "pilapse" >}}
 
 
 

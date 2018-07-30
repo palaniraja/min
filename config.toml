@@ -5,10 +5,10 @@ theme = "min"
 publishDir = "docs"
 
 # uglyURLs = true
-# canonifyURLs = true
+canonifyURLs = true
 
-[permalinks]
-  projects = "/:year/:month/:title/"
+# [permalinks]
+#  projects = "/:year/:month/:title/"
 
 [[menu.main]]
   name = "Archives"
@@ -24,7 +24,7 @@ publishDir = "docs"
 
 [mediaTypes]
     [mediaTypes."application/atom"]
-    suffix = "xml"
+    suffixes = ["xml"]
 
     [outputFormats.Atom]
     mediaType = "application/atom"

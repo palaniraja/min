@@ -47,11 +47,12 @@
         <div class="article-content">
           {{- if .Truncated }}
           {{ .Summary }}
+          <div class="article-readmore"><a href="{{ .Permalink | relURL }}">Read more...</a></div>
           {{- else }}
           {{ .Content }}
           {{- end }}
         </div>
-        <div class="article-readmore"><a href="{{ .Permalink | relURL }}">Read more...</a></div>
+        
         <div class="article-floatclear"></div>
       </article>
       {{- end }}

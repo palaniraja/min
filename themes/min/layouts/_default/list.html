@@ -20,26 +20,6 @@
         </a>
         <ul class="article-meta">
           <li class="article-meta-date"><time>{{ .Date.Format (default "Jan 2, 2006" $.Site.Params.dateFormat) }}</time></li>
-          {{- if .Params.categories }}
-          {{- range .Params.categories }}
-          <li class="article-meta-categories">
-            <a href="{{ "/" | relURL }}categories/{{ . | urlize }}/">
-              <i class="fas fa-folder"></i>
-              {{ . }}
-            </a>&nbsp;
-          </li>
-          {{- end }}
-          {{- end }}
-          {{- if .Params.tags }}
-          {{- range .Params.tags }}
-          <li class="article-meta-tags">
-            <a href="{{ "/" | relURL }}tags/{{ . | urlize }}/">
-              <i class="fas fa-tag"></i>
-              {{ . }}
-            </a>&nbsp;
-          </li>
-          {{- end }}
-          {{- end }}
         </ul>
         {{- if .Params.image }}
         <a href="{{ .Permalink | relURL }}"><img src="{{ .Params.image }}" class="article-image" /></a>

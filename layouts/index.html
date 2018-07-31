@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en-us">
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Palaniraja - Home Page</title>
     <style type="text/css">
-        /*!
+/*!
  * Milligram v1.3.0
  * https://milligram.github.io
  *
@@ -26,7 +29,6 @@ html {
 body {
   color: #606c76;
   /*font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;*/
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-size: 1.6em;
   font-weight: 300;
   letter-spacing: .01em;
@@ -553,6 +555,8 @@ h6 {
   letter-spacing: -.1rem;
   margin-bottom: 2.0rem;
   margin-top: 0;
+  font-family: "Georgia";
+
 }
 
 h1 {
@@ -607,11 +611,56 @@ img {
 }
 
 /*# sourceMappingURL=milligram.css.map */
-    </style>
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  }
+
+/*https://themes.gohugo.io/theme/hugo-theme-hello-friend/showcase*/
+.hello {
+    /*border-right: 2px inset #fe5186;*/
+    /*padding-right: 0.0rem;*/
+    
+    background-color: #fe5186;
+    width: 0.4rem;
+    /*color:#fe5186;*/
+    display: inline-block;
+    animation:cursor 1.5s infinite;
+    margin-left: 0.4rem;
+}    
+
+
+@-webkit-keyframes cursor {
+ 0% {
+  opacity:0
+ }
+ 50% {
+  opacity:1
+ }
+ to {
+  opacity:0
+ }
+}
+@keyframes cursor {
+ 0% {
+  opacity:0
+ }
+ 50% {
+  opacity:1
+ }
+ to {
+  opacity:0
+ }
+}
+
+</style>
+
 </head>
 
 <body>
-    <h1>Hey</h1>
+    <h1 >Hey, Hello... <div class="hello">&#8203;</div></h1>
+
+    <!-- <div class="logo__cursor"></div> -->
     <p>
         Thank you for visiting my site. I'm currently working on a redesign. Feel free to checkout the contents.
     </p>
@@ -626,7 +675,8 @@ img {
     <p>Github: <a target="_blank" rel="noreferrer"href='https://github.com/palaniraja'/>palaniraja</a></p>
     <p>Resume: <a target="_blank" rel="noreferrer" href='/resume'/>Palani</a></p>
     
-                  
+             
+
 
 </body>
 

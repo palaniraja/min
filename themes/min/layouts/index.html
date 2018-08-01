@@ -21,7 +21,7 @@
         width: 0.35rem;
         /*color:#fe5186;*/
         display: inline-block;
-        animation: cursor 1.5s infinite;
+        animation: cursor 1.5s 2;
         margin-left: 0.4rem;
     }
 
@@ -36,25 +36,25 @@
     }
     @-webkit-keyframes cursor {
         0% {
-            opacity: 0
+            opacity: 0;
         }
         50% {
-            opacity: 1
+            opacity: 1;
         }
-        to {
-            opacity: 0
+        100% {
+            opacity: 0;
         }
     }
 
     @keyframes cursor {
         0% {
-            opacity: 0
+            opacity: 0;
         }
         50% {
-            opacity: 1
+            opacity: 1;
         }
-        to {
-            opacity: 0
+        100% {
+            opacity: 0;
         }
     }
 
@@ -72,11 +72,21 @@
         border-radius: 50%;
         margin: 0.3rem;
     }
+
+    .homefooter,
+    nav {
+        background-color: #515c6c;
+        color: #fff;
+        text-align: center;
+        padding: 0.5rem;
+    }
     </style>
 </head>
 
 <body>
     <div class="main">
+        <nav >Home | Archive | Blog | Projects | About </nav>
+        <p></p>
         <div class="site-header">
             <!-- <div id="avatar">
                 <div class="photo"></div>
@@ -99,7 +109,7 @@
     <h3>Recent Posts:</h3>
 
         <div id="index">
-        {{ range (.Paginator 10).Pages }}     
+        {{ range (.Paginator 5).Pages }}     
             <article class="post">
                 <h4>[{{ .Date.Format "2 Jan" }}] <a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
                  <!-- {{ .Date.Format "January 2, 2006" }} -->
@@ -113,6 +123,10 @@
             </article>
         {{ end }}
       </div>
+      <footer class="homefooter">
+          <p>Home | RSS | Archive | Blog | Projects | About</p>
+          <p>&copy; palani raja 
+      </footer>
 </body>
 
 </html>

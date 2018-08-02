@@ -12,7 +12,10 @@
     body {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     }
-    /*https://themes.gohugo.io/theme/hugo-theme-hello-friend/showcase*/
+    
+
+
+    /* Inspired by - https://themes.gohugo.io/theme/hugo-theme-hello-friend/showcase */
 
     .hello {
         /*border-right: 2px inset #fe5186;*/
@@ -21,7 +24,7 @@
         width: 0.35rem;
         /*color:#fe5186;*/
         display: inline-block;
-        animation: cursor 1.5s 2;
+        animation: cursor 1.5s infinite;
         margin-left: 0.4rem;
     }
 
@@ -80,6 +83,31 @@
         text-align: center;
         padding: 0.5rem;
     }
+
+
+/** Custom **/
+
+    .postDate{
+        display: inline-block;
+        border: 1px solid #ccc;
+        /*padding: 0.25rem;*/
+        border-radius: 10%;
+    }
+    .postDate span{
+        display: block;
+        text-align: center;
+        width: 5rem;
+    }
+    .postDate span:nth-child(odd){
+        background: #fe5186;
+        font-size: 1.2rem;
+        color: white;
+    }
+    .postDate span:nth-child(even){
+        /*background: blue;*/
+        /*font-size: 1rem;*/
+    }
+
     </style>
 </head>
 
@@ -106,12 +134,18 @@
         </div>
         
     <hr/>
+
+    
+
     <h3>Recent Posts:</h3>
 
         <div id="index">
         {{ range (.Paginator 5).Pages }}     
             <article class="post">
-                <h4>[{{ .Date.Format "2 Jan" }}] <a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+                <h5><time class="postDate" datetime="{{ .Date.Format `2006-01-02` }}">
+        <span>{{ .Date.Format "Jan" }}</span>
+        <span>{{ .Date.Format "2" }}</span>
+    </time> <a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
                  <!-- {{ .Date.Format "January 2, 2006" }} -->
                 <!-- <div class="post-content"> -->
                     <!-- <p>{{ .Summary }}</p> -->
@@ -124,8 +158,7 @@
         {{ end }}
       </div>
       <footer class="homefooter">
-          <p>Home | RSS | Archive | Blog | Projects | About</p>
-          <p>&copy; palani raja 
+          <p>Home | RSS | Archive | Blog | Projects | About</p><!-- <p>&copy; palaniraja 2018</p> -->
       </footer>
 </body>
 

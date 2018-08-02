@@ -140,6 +140,7 @@
     <h3>Recent Posts:</h3>
 
         <div id="index">
+            <ol>
         {{ range (.Paginator 5).Pages }}     
             <article class="post">
                <!--  <h5><time class="postDate" datetime="{{ .Date.Format `2006-01-02` }}">
@@ -147,7 +148,7 @@
         <span>{{ .Date.Format "2" }}</span>
     </time> <a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
  -->
-            <a href="{{ .RelPermalink }}"><time datetime="{{ .Date.Format `2006-01-02` }}">&raquo; </time>{{ .Title }}</a>
+            <li><a href="{{ .RelPermalink }}"><time datetime="{{ .Date.Format `2006-01-02` }}">&nbsp </time>{{ .Title }}</a></li>
 
                  <!-- {{ .Date.Format "January 2, 2006" }} -->
                 <!-- <div class="post-content"> -->
@@ -159,6 +160,7 @@
                 <!-- <hr /> -->
             </article>
         {{ end }}
+    </ol>
       </div>
       <hr />
       <footer class="homefooter">

@@ -14,7 +14,7 @@
           <ul>
             <li class="archives-item">
               <a href="{{ .Permalink | relURL }}">{{ .Title }}</a>
-              <ul class="taxonomies">
+              <!-- <ul class="taxonomies"> -->
                 <!-- {{- if isset .Params "categories" }}
                 {{- range .Params.categories }}
                 <li class="taxonomies-item"><a href="{{ "/" | relURL }}categories/{{ . | urlize }}/"><i class="fas fa-folder"></i>{{ . }}</a></li>
@@ -25,7 +25,7 @@
                 <li class="taxonomies-item"><a href="{{ "/" | relURL }}tags/{{ . | urlize }}/"><i class="fas fa-tag"></i>{{ . }}</a></li>
                 {{- end }}
                 {{- end }} -->
-              </ul>
+              <!-- </ul> -->
               <time>{{ .Date.Format (default "Jan 2, 2006" $.Site.Params.dateFormat) }}</time>
             </li>
           </ul>

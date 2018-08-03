@@ -140,6 +140,7 @@ blockquote blockquote blockquote blockquote {
   box-sizing: border-box;
   /*border: solid 1px lightgray;*/
   padding: 4px;
+  max-height: 500px;
 }
 .article > table {
   width: auto;
@@ -599,3 +600,34 @@ blockquote blockquote blockquote blockquote {
   }
   
 }
+
+/*Customization */
+
+figcaption a{
+  border-bottom: 1px solid #f4f5f6;
+  font-size: 1.6rem;
+  margin-left: 0.5rem;
+}
+
+
+.archives .archives-month, .archives .archives-item {
+/*.archives .archives-item li{*/
+  border-bottom:1px solid #f4f5f6;
+}
+
+.archives .archives-item a{
+  /*border:none;*/
+  font-size: 1.7rem;
+  font-family: 'serif';
+  font-weight: 100;
+}
+
+.archives .archives-month{
+  font-size: 1.4rem;
+}
+
+.archives .archives-item > a:visited {
+  color: #95BCEB;
+  /*background-color: yellow;*/ /*#FFE999;*/
+}
+

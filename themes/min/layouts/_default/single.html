@@ -19,7 +19,7 @@
         </li>
         {{- end }}
         {{- end }}
-        {{- if .Params.tags }}
+        <!-- {{- if .Params.tags }}
         {{- range .Params.tags }}
         <li class="article-meta-tags">
           <a href="{{ "/" | relURL }}tags/{{ . | urlize }}/">
@@ -28,7 +28,7 @@
           </a>&nbsp;
         </li>
         {{- end }}
-        {{- end }}
+        {{- end }} -->
       </ul>
       {{ if .Params.toc }}
         {{ partial "toc.html" . }}

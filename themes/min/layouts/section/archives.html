@@ -1,10 +1,11 @@
 
 {{ define "main" }}
   <div class="breadcrumb">
-    Archives
+    <h2>Archives</h2>
+    <!-- <p>Links to all the articles published</p> -->
   </div>
   <div class="main" role="main">
-    {{ $paginator := .Paginate ((where .Site.Pages "Kind" "page").GroupByDate "2006-01") 25 -}}
+    {{ $paginator := .Paginate ((where .Site.Pages "Kind" "page").GroupByDate "2006-01") -}}
     <section class="archives">
       <ul>
         {{- range $paginator.PageGroups }}

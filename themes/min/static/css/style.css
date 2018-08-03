@@ -1,52 +1,4 @@
-html {
-  font-size: 1em;
-}
-body {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  color: #444444;
-  overflow-y: scroll;
-  line-height: 1.2;
-}
-a {
-  color: #2060d0;
-  text-decoration: none;
-}
-a:hover, a:active {
-  color: #5090ff;
-}
-hr {
-  height: 1px;
-  border: 0;
-  border-top: solid 1px lightgray;
-  margin: 0;
-}
-pre, code {
-  font-family: monospace, serif;
-  background-color: lightgray;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-pre {
-  padding: 4px;
-}
-blockquote {
-  margin: 0;
-  margin-left: 40px;
-  border-left: solid 4px #b4c6c7;
-  padding-left: 8px;
-  font-style: normal;
-  color: #7080a0;
-}
-blockquote blockquote {
-  margin-left: 0;
-  border-left-color: #e7c3e5;
-}
-blockquote blockquote blockquote {
-  border-left-color: #c3e7d2;
-}
-blockquote blockquote blockquote blockquote {
-  border-left-color: lightgray;
-}
+
 
 /* Site header */
 .site-header {
@@ -619,7 +571,7 @@ figcaption a{
   /*border:none;*/
   font-size: 1.7rem;
   font-family: 'serif';
-  font-weight: 100;
+  /*font-weight: 100;*/
 }
 
 .archives .archives-month{
@@ -631,3 +583,30 @@ figcaption a{
   /*background-color: yellow;*/ /*#FFE999;*/
 }
 
+
+
+.site-navi-items{
+  font-size: 1.0em;
+}
+
+
+article.article p a,
+article.article li a{
+  background-color: #95BCEB1A;/*FFE999;*/
+  /*color:#0B4FA1;*/
+  text-decoration: underline;
+  padding: 0.2em;
+}
+
+
+blockquote{
+  background-color: #95BCEB1A;
+}
+
+.prow .column{
+  border: 1px solid lighgray;
+}
+
+.prow .pcol{
+  margin: 1em;
+}

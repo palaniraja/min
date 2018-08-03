@@ -3,41 +3,54 @@ languageCode = "en-us"
 title = "PR"
 theme = "min"
 
+copyright = "&copy; Copyright 2018 palaniraja"
+
 
 publishDir = "docs"
 
 # uglyURLs = true
 canonifyURLs = true
 
+paginate = 30
+
 [permalinks]
  projects = "/:year/:month/:title/"
  posts = "/:year/:month/:title/"
 
 
+
 [[menu.main]]
-  name = "Resume"
-  weight = 4
-  identifier = "resume"
-  url = "/resume"
+  name = "Projects"
+  weight = 1
+  identifier = "projects"
+  url = "/projects"
+
+
+# [[menu.main]]
+#   name = "Archives"
+#   weight = 2
+#   identifier = "archives"
+#   url = "/archives"
 
 
 [[menu.main]]
-  name = "Archives"
+  name = "Blog"
   weight = 3
-  identifier = "archives"
-  url = "/archives"
+  identifier = "blog"
+  url = "/posts"
+
 
 [[menu.main]]
   name = "About"
-  weight = 2
+  weight = 4
   identifier = "about"
   url = "/about"
 
-[[menu.main]]
-  name = "rss"
+[[menu.footer]]
+  name = "About"
   weight = 1
-  identifier = "atom"
-  url = "/index.xml"
+  identifier = "about"
+url = "/about/"
 
 [mediaTypes]
     [mediaTypes."application/atom"]

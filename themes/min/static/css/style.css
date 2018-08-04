@@ -758,6 +758,10 @@ blockquote {
   color: #fe5186;
 }
 
+.site-footer-invalid p:last-child{
+    font-size: 1rem;
+}
+
 .site-navi-items a{
   color: #fe5186;
 }

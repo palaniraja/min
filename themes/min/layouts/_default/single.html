@@ -9,7 +9,7 @@
       <hr class="article-title-bottom">
       <ul class="article-meta">
         <li class="article-meta-date"><time>{{ .Date.Format (default "Jan 2, 2006" $.Site.Params.dateFormat) }}</time></li>
-        {{- if .Params.categories }}
+        <!-- {{- if .Params.categories }}
         {{- range .Params.categories }}
         <li class="article-meta-categories">
           <a href="{{ "/" | relURL }}categories/{{ . | urlize }}/">
@@ -18,7 +18,7 @@
           </a>&nbsp;
         </li>
         {{- end }}
-        {{- end }}
+        {{- end }} -->
         <!-- {{- if .Params.tags }}
         {{- range .Params.tags }}
         <li class="article-meta-tags">
@@ -56,16 +56,16 @@
     </section>
     {{- end }}
 
-    {{ if .Params.allowComments }}
-    <hr />
     
-        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377={{ .Permalink }}">Post Comment</a> 
+    <hr style="border-color:#4484ce44;"/>
+    
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377={{ .Permalink }}" title="Link to Google Forms">Post Comment</a> 
 
         {{ if .Params.commentsUrl }}
           <a class="button" href={{ ref . .Params.commentsUrl }}>View comments</a>
         {{- end }}
-    <hr />
-    {{- end }}
+    <hr  style="border-color:transparent;"/>
+    
     <ul class="pager article-pager">
       {{- if .NextInSection }}
       <li class="pager-newer">

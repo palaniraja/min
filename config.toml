@@ -11,13 +11,13 @@ publishDir = "docs"
 # uglyURLs = true
 canonifyURLs = true
 
-paginate = 30
+paginate = 20
 
 RSSLink = true
 summaryLength = 20
 
 [permalinks]
- projects = "/:year/:month/:title/"
+ projects = "projects/:title/"
  posts = "/:year/:month/:title/"
 
 
@@ -44,8 +44,14 @@ summaryLength = 20
 
 
 [[menu.main]]
-  name = "About"
+  name = "Archive"
   weight = 4
+  identifier = "archive"
+  url = "/archives"
+
+[[menu.main]]
+  name = "About"
+  weight = 5
   identifier = "about"
   url = "/about"
 

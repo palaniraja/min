@@ -58,8 +58,12 @@
 
     {{ if .Params.allowComments }}
     <hr />
-        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=)">Post Comment</a> 
-      <a class="button" href={{ ref . .Params.commentsUrl }}>View comments</a>
+    
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377={{ .Permalink }}">Post Comment</a> 
+
+        {{ if .Params.commentsUrl }}
+          <a class="button" href={{ ref . .Params.commentsUrl }}>View comments</a>
+        {{- end }}
     <hr />
     {{- end }}
     <ul class="pager article-pager">

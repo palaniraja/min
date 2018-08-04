@@ -169,24 +169,24 @@
     color: gray;
 }
 
-.article-title-bottom {
+/*.article-title-bottom {
     margin-top: 5px;
 }
 
 .about .article-title-bottom {
     margin-bottom: 40px;
 }
-
+*/
 .article .article-meta {
     list-style-type: none;
     padding: 0;
-    margin: 5px 0 40px 0;
+    /*margin: 5px 0 40px 0;
     display: -webkit-flex;
     display: flex;
     -webkit-align-items: flex-end;
     align-items: flex-end;
     -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
+    flex-wrap: wrap;*/
 }
 
 .article-meta a {
@@ -778,3 +778,14 @@ body {
 figure{
     margin-left: 0;
 }
+
+
+@media (max-width: 400px) {
+    .site-title{
+        display: none;
+    }
+    .site-navi{
+        justify-content: start;
+    }
+}
+

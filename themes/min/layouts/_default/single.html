@@ -56,14 +56,12 @@
     </section>
     {{- end }}
 
-    {{ partial "share.html" . }}
-
-    {{- if and .Site.DisqusShortname (or (not (isset .Params "comments")) (eq .Params.comments nil) .Params.comments) }}
-    <div class="disqus-comments">
-      {{ template "_internal/disqus.html" . }}
-    </div>
+    {{ if .Params.allowComments }}
+    <hr />
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=)">Post Comment</a> 
+      <a class="button" href={{ ref . .Params.commentsUrl }}>View comments</a>
+    <hr />
     {{- end }}
-
     <ul class="pager article-pager">
       {{- if .NextInSection }}
       <li class="pager-newer">

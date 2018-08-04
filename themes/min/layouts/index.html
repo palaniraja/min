@@ -167,9 +167,11 @@ SVG Icons - svgicons.sparkk.fr
     .flxContainer{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        /*justify-content: space-around;*/
+        justify-content: space-between;
         /*align-content: space-between;*/
         /*color:red;*/
+        /*align-items: flex-start;*/
         /*align-items: flex-start;*/
         background-color: yellow;
 
@@ -179,9 +181,11 @@ SVG Icons - svgicons.sparkk.fr
         /*background-color: #5486aa;*/
         border: 1px solid #fe5186;
         padding: 1.5rem;
-        width: 48%; margin-bottom: 2rem;
+        width: 48%; margin-bottom: 4%;
+        min-height: 400px;
         /*flex:1;*/
-        /*display: flex;*/
+        display: flex;
+        flex-direction:column;
     }
 
     .flxPrjTitle{
@@ -190,14 +194,25 @@ SVG Icons - svgicons.sparkk.fr
 
     .flxFiller{
         background-color: #36739f;
-        flex:0 1;
+        flex:1;
     }
 
     .flxAction{
         /*background-color: #c4cad4;*/
-        align-items:flex-end;
+        /*align-items:flex-end;*/
     }
 
+
+    @media (max-width: 400px) {
+
+        .flxContainer{
+            flex-direction:column;
+        }
+
+        .flxItemContainer{
+            width: auto;
+        }
+    }
 
 </style>
 </head>

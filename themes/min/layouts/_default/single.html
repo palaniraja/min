@@ -3,7 +3,7 @@
   <div class="main" role="main">
     <article class="article">
       <ul class="article-meta">
-        <li class="article-meta-date"><time>{{ .Date.Format (default "Jan 2, 2006" $.Site.Params.dateFormat) }}</time></li>
+        <li class="article-meta-date"><time>{{ .Date.Format (default "Jan 2, 2006" $.Site.Params.dateFormat) }} </time> &nbsp;&nbsp;<small> &minus; {{ .ReadingTime }} <em>min.</em> read</small></li>
         <!-- {{- if .Params.categories }}
         {{- range .Params.categories }}
         <li class="article-meta-categories">

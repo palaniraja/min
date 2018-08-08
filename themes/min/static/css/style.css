@@ -754,7 +754,8 @@ blockquote {
 }
 
 .site-footer-invalid p a{
-  padding: 0 1em;
+  /*padding: 0 1em;*/
+  padding: 10px;
   color: #fe5186;
 }
 
@@ -780,12 +781,28 @@ figure{
 }
 
 
+.nav-footer-menu {
+    text-align: center;
+}
+
+
 @media (max-width: 400px) {
     .site-title{
         display: none;
     }
     .site-navi{
-        justify-content: start;
+        justify-content: space-between;
+    }
+
+    .nav-footer-menu{
+        text-align: left;
+    }
+    .nav-footer-menu a{
+        display:block;
     }
 }
 
+
+hr:last-child{
+    border-style: double;
+}

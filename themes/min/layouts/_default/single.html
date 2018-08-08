@@ -70,17 +70,13 @@
     <ul class="pager article-pager">
       {{- if .NextInSection }}
       <li class="pager-newer">
-          <a href="{{ .NextInSection.Permalink | relURL }}" data-toggle="tooltip" data-placement="top" title="{{ .NextInSection.Title }}">&lt; Newer</a>
+          <a href="{{ .NextInSection.Permalink | relURL }}" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; {{ .NextInSection.Title }}</a>
       </li>
-      {{- else }}
-      <li class="pager-newer pager-noitem">&lt; Newer</li>
       {{- end }}
       {{- if .PrevInSection }}
       <li class="pager-older">
-        <a href="{{ .PrevInSection.Permalink | relURL }}" data-toggle="tooltip" data-placement="top" title="{{ .PrevInSection.Title }}">Older &gt;</a>
+        <a href="{{ .PrevInSection.Permalink | relURL }}" data-toggle="tooltip" data-placement="top" title="Previous Article">{{ .PrevInSection.Title }} &gt;</a>
       </li>
-      {{- else }}
-      <li class="pager-older pager-noitem">Older &gt;</li>
       {{- end }}
     </ul>
   </div>

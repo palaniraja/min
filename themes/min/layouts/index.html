@@ -204,9 +204,11 @@ SVG Icons - svgicons.sparkk.fr
     }
 
     .flxPrjTitle sup{
-        background-color: yellow;
+        /*background-color: yellow;*/
+        color: #fe5186;
         font-family: sans-serif;
         font-size: 1.4rem;
+        letter-spacing: 0;
 
     }
 
@@ -256,9 +258,7 @@ SVG Icons - svgicons.sparkk.fr
         <hr/>
        <div class="prj-wrapper">
         <h3>Projects</h3>
-            
             {{ template "partials/featured-projects.html" . }}
-            <!-- {{ template "partials/projects.html" . }} -->
        </div>
        <hr /> 
         <h3>Recent Posts</h3>
@@ -272,7 +272,7 @@ SVG Icons - svgicons.sparkk.fr
                 {{ end }}
             </ol>
         </div>
-        <hr />
+        <hr style="border-color:#4484ce44;">
         {{ template "partials/footer.html" . }}
 </body>
 

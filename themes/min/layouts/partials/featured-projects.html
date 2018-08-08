@@ -1,0 +1,14 @@
+<div class="flxContainer">
+    {{ range first 6 (where .Pages "Section" "projects") }}
+    <div class="flxItemContainer">
+        <div class="flxPrjTitle">
+            <h4><a href="{{ .RelPermalink }}">{{ .Title }} </a>{{ if .Params.isBeta }}<sup>beta</sup>{{ end }}</h4></div>
+        <div class="flxContent">
+            <p> {{ .Params.description | markdownify}} </p>
+        </div>
+        <div class="flxFiller">&nbsp;</div>
+        <div class="flxAction"><a class="button" href="{{ .RelPermalink }}">more &hellip;</a></div>
+    </div>
+    {{ end }}
+
+</div>

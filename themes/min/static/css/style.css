@@ -811,3 +811,14 @@ hr:last-child{
 code{
     font-size: 100%;
 }
+
+/*external links - https://stackoverflow.com/a/51700279/240255*/
+.external-links:after {
+    display: inline-block;
+    content: "⇱";
+    position: relative;
+    top: -5px;
+    margin-left: 0.5rem;
+    color:#fe5186;
+    transform: rotate(90deg);
+}

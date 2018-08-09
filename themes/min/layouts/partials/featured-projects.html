@@ -2,7 +2,7 @@
     {{ range sort (first 6 (where .Pages "Section" "projects")) "Params.order"}}
     <div class="flxItemContainer">
         <div class="flxPrjTitle">
-            <h3><a href="{{ .RelPermalink }}">{{ .Title }} </a>{{ if .Params.isBeta }}<sup>beta</sup>{{ end }}</h3></div>
+            <h3><a href="{{ .RelPermalink }}">{{ .Params.shortTitle | default .Title }}</a> {{ if .Params.isBeta }}<sup>beta</sup>{{ end }}</h3></div>
         <div class="flxContent">
             <p> {{ .Params.description | markdownify}} </p>
         </div>

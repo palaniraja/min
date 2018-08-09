@@ -806,3 +806,8 @@ figure{
 hr:last-child{
     border-style: double;
 }
+
+
+code{
+    font-size: 100%;
+}

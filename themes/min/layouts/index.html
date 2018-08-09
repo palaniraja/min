@@ -236,16 +236,10 @@ SVG Icons - svgicons.sparkk.fr
             <!-- <div id="avatar">
                 <div class="photo"></div>
             </div> -->
-            <h1>Hey, Hello <div class="hello">&#8203;</div></h1>
+            <h1>{{ .Title }} <div class="hello">&#8203;</div></h1>
             <!--&hellip; <div class="logo__cursor"></div> -->
-            <p>
-                Thank you for visiting my site. I'm <a href="/about" title="about me">Palani Raja</a>, a programmer from <a href="https://www.google.com/maps/place/Chennai,+Tamil+Nadu/">Chennai, India.</a> 
-            </p>
-            <p> Currently working as a Senior Technical Archictect (Mobile) for an Indian IT company. </p>
-            
-            <p>This is still a <em>draft</em> site, I have been procrastinating for about 5+ years since I bought this domain. I'll try to update with info about my hobby projects and stuff I'm interested in.</p>
-            <p>Recently I've decided to merge all my contents scattered across several different blogging system to this site. For the utilizing this domain, and a central system. So if you notice anything broken, please feel free to mail me.</p>
-            <a class="button" href="/about">About me</a>            
+
+            {{ .Content }}        
         </div>
         <hr/>
          <div class="mainContacts main">
